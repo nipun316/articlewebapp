@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>createhere</title>
+	<style type="text/css">
+	#box{
+		margin:auto;
+		border:2px solid black;
+		width: 800px;
+		height:1000px;
+		background: #1abc9c;
+	}
+	#cret{
+		padding-left: 250px;
+
+	}
+	#article{
+		width:400px;
+		height:400px;
+		
+
+	}
+
+		
+
+
+	</style>
+	<script type="text/javascript">
+		
+	</script>
+</head>
+<body>
+	<div id="box">
+		<h1 id="cret">CREATE HERE</h1>
+		<form action="article" method="post">
+		<label  for="articlename"><h4>NAME OF THE ARTICLE:<h4></label>
+		<input  type="text" name="articlename">
+		<label for="article"><h4>ARTICLE:</h4></label>
+		<textarea id="article" name="article"></textarea>
+		<p><h4>Please select your theme:</h4></p>
+		<input id="romance" type="radio" name="theme" value="../static/images/romance.png">
+		<label for="romance">ROMANCE</label><br>
+		<input id="society" type="radio" name="theme" value="../static/images/dance.png">
+		<label for="society">SOCIETY</label><br>
+		<input id="motivation" type="radio" name="theme" value="../static/images/motivation.png">
+		<label for="motivation">MOTIVATION</label><br>
+		<input id="story" type="radio" name="theme" value="../static/images/story.png">
+		<label for="story">STORY</label><br>
+		<input id="other" type="radio" name="theme" value="../static/images/lands.png">
+		<label for="other">OTHER</label><br>
+		<br><br>
+		<input type="submit" value="create">
+	    </form>
+
+		
+		
+		
+	</div>
+
+
+</body>
+</html>
